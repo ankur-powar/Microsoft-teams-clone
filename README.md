@@ -7,8 +7,16 @@ This is a **Microsoft teams clone** in which more than two people can connect in
 #### `App Link:` https://pure-oasis-39392.herokuapp.com   
 #### `Demo:` https://youtu.be/KgrrSdcZzBU 
 
+### `You can also try these Demo Accounts:`
+**Email:** `akash@gmail.com` ,  **Password:** `$akash1234` <br>
+**Email:** `ankur@gmail.com` ,  **Password:** `$ankur1234`
+
 
 ## Development
+### Configuration
+1. Clone this repository.
+2. Setup a firebase project and then add your `firebase Config` object to `public\javascripts\firebase.js`
+
 ### Running on localhost
 1. In `public\javascripts\script.js` , **line no: 40** <br>
 change `port: '443'`   **->**    `port: '3030'`
